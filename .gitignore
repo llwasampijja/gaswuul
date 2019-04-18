@@ -39,6 +39,7 @@ pip-delete-this-directory.txt
 htmlcov/
 .tox/
 .coverage
+.coveragerc
 .coverage.*
 .cache
 nosetests.xml
@@ -85,7 +86,7 @@ celerybeat-schedule
 .env
 .venv
 env/
-venv/
+/venv/
 ENV/
 env.bak/
 venv.bak/
@@ -102,3 +103,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# vscode
+.vscode/
+
+# macOS
+*.DS_Store
+
+#migrations
+*/migrations
